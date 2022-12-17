@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#appBody{
+  background-color: red;
+  transition: all .3s ease-in-out;
+}
+
+.Lorem{
+  color: #303030;
+  transition: all .3s ease-in-out;
+}
+
+
+#appBody.dark{
+  background-color: #303030;
+  transition: all .3s ease-in-out;
+}
+
+#appBody.dark .Lorem{
+  color: pink;
+  transition: all .3s ease-in-out;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
